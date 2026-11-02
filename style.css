@@ -1,13 +1,22 @@
 body {
+ background-anim
   background-color: #f0f8ff;
+  background-color: white;
+style-titre
 }
 
 h1 {
   text-align: center;
+ background-anim
   animation: fade-in 2s ease-in-out;
 }
 
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+
+  color: #3498db;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+ style-titre
 }
