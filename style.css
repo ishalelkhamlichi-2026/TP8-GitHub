@@ -1,2 +1,10 @@
-body { background-color: white; }
-h1 { text-align: center; }
+body {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #3498db;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+}
