@@ -1,2 +1,13 @@
-body { background-color: white; }
-h1 { text-align: center; }
+body {
+  background-color: #f0f8ff;
+}
+
+h1 {
+  text-align: center;
+  animation: fade-in 2s ease-in-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
